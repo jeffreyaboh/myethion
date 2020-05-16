@@ -1,0 +1,17 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^shop\.myethion\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.shop\.myethion\.com$
+RewriteRule ^/?$ "http\:\/\/editor\.myethion\.com\/shop" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+<IfModule fcgid_module>
+    <IfModule mime_module>
+        AddHandler fcgid-script .php .php5 .phtml
+        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php56 .php
+        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php56 .php5
+        FcgidWrapper /usr/local/cpanel/cgi-sys/ea-php56 .phtml
+    </IfModule>
+</IfModule>
+
+# php -- END cPanel-generated handler, do not edit
