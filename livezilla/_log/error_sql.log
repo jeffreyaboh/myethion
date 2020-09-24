@@ -5810,3 +5810,35 @@ SQL: connect
 
 SQL: connect
 
+23.09.20 13:46:44 - 1045: Access denied for user 'adsproco_admin'@'localhost' (using password: YES)
+
+SQL: connect
+
+23.09.20 14:29:04 - 1045: Access denied for user 'adsproco_admin'@'localhost' (using password: YES)
+
+SQL: connect
+
+23.09.20 16:20:59 - 1045: Access denied for user 'adsproco_admin'@'localhost' (using password: YES)
+
+SQL: connect
+
+23.09.20 19:18:45 - 1045: Access denied for user 'adsproco_admin'@'localhost' (using password: YES)
+
+SQL: connect
+
+24.09.20 01:50:24 - 1045: Access denied for user 'adsproco_admin'@'localhost' (using password: YES)
+
+SQL: connect
+
+24.09.20 02:55:22 - 1045: Access denied for user 'adsproco_admin'@'localhost' (using password: YES)
+
+SQL: connect
+
+24.09.20 10:43:27 - 1045: Access denied for user 'adsproco_admin'@'localhost' (using password: YES)
+
+SQL: connect
+
+24.09.20 10:43:27 - 1045: Access denied for user 'adsproco_admin'@'localhost' (using password: YES)
+
+SQL: connect
+
