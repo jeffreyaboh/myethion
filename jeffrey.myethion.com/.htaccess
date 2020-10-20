@@ -6,12 +6,6 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-RewriteCond %{HTTP_HOST} ^jeffrey\.myethion\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.jeffrey\.myethion\.com$
-RewriteRule ^/?$ "https\:\/\/jeffreyaboh\.co\.uk" [R=301,L]
 
 # php -- BEGIN cPanel-generated handler, do not edit
 <IfModule fcgid_module>
